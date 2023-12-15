@@ -70,15 +70,47 @@ button {
     padding: 35px;
 }
 
-.information-frame {
+.information-frame, .information-subtext {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .frame-one, .frame-two, .frame-three, .frame-four {
-    margin: 15px;
     height: 125px;
     width: 125px;
-    border: solid 4px #3882F6;
+    border: solid 3px #3882F6;
     border-radius: 12px;
+}
+
+p {
+    width: 125px;
+    margin-bottom: 75px;
+    color: #353d47;
+    font-size: 14px;
+    margin-top: 5px;
+}
+/* Start of Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #353d47;
+    font-size: 26px;
+    font-weight: 100;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 150px 0px 150px;
+}
+
+.quote-author {
+    background-color: #E5E7EB;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px 185px 75px 0px;
 }
