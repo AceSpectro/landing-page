@@ -114,3 +114,38 @@ p {
     align-items: flex-start;
     padding: 0px 185px 75px 0px;
 }
+/* start of action section */
+
+.action {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px;
+    margin: 50px 100px;
+}
+
+.action-main {
+    font-weight: 700;
+    /* border: solid 1px red; */
+}
+
+h4, h6 {
+    margin: 0;
+}
+
+h6 {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#action-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 1px white;
+    margin: 0;
+    align-self: flex-end;
+}
