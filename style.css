@@ -149,3 +149,15 @@ h6 {
     margin: 0;
     align-self: flex-end;
 }
+/* Start of footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
